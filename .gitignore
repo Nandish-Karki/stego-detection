@@ -1,19 +1,32 @@
-# Ignore Python cache files
-__pycache__/
-*.pyc
-
-# Ignore virtual environment
-venv/
-
-# Ignore audio files in any directory
-*.wav
-*.mp3
-*.flac
-*.m4a
-*.ogg
-
-# Ignore model files
-*.pth
-
 # Ignore CSVs if they are auto-generated (optional)
  *.csv
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+
+# Ignore trained model files
+*.pth
+*.ckpt
+
+# Ignore datasets and generated audio/text
+audio/cover/
+audio/stego/
+audio/text/
+
+# Ignore result outputs and generated artifacts
+outputs/
+results/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore OS system files
+.DS_Store
+Thumbs.db
