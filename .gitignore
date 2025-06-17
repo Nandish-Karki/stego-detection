@@ -1,0 +1,19 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment
+venv/
+
+# Ignore audio files in any directory
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.ogg
+
+# Ignore model files
+*.pth
+
+# Ignore CSVs if they are auto-generated (optional)
+ *.csv

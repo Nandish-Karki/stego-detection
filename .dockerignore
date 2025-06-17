@@ -1,0 +1,10 @@
+__pycache__/
+*.pth
+*.csv
+*.wav
+*.mp3
+*.log
+*.tmp
+*.ipynb_checkpoints
+.env
+venv/
