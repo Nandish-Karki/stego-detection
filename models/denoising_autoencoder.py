@@ -20,12 +20,7 @@ class DenoisingAutoencoder(nn.Module):
             nn.ConvTranspose1d(16, 1, kernel_size=9, stride=2, padding=4, output_padding=1),
             nn.Tanh()
         )
-    ''' 
-    def forward(self, x):
-        x = self.encoder(x)
-        x = self.decoder(x)
-        return x
-    '''
+
     def forward(self, x):
         original_shape = x.shape
         x = self.encoder(x)

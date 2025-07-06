@@ -140,7 +140,7 @@ with open(labels_csv, 'r') as f:
         audio_path = os.path.join(audio_root, rel_path)
         true_label = int(true_label)
 
-        pred, error, _ = classifier.predict(audio_path, mode="cnn")  # or "hybrid"
+        pred, error, _ = classifier.predict(audio_path, mode="autoencoder")  # or "hybrid"
         results.append([rel_path, true_label, pred, round(error, 6)])
 
         if pred == true_label:
