@@ -19,8 +19,7 @@ venv/
 audio/cover/
 audio/stego/
 audio/text/
-outputs/
-results/
+
 # Ignore result outputs and generated artifacts
 outputs/
 results/
