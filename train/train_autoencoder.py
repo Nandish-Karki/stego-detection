@@ -126,7 +126,7 @@ print(torch.__version__)
 BATCH_SIZE = 32
 EPOCHS = 30
 LEARNING_RATE = 1e-3
-SAMPLE_LEN = 16000
+SAMPLE_LEN = 176400
 VAL_SPLIT = 0.1
 MODEL_SAVE_PATH = "models/autoencoder_trained.pth"
 PATIENCE = 5

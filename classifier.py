@@ -158,7 +158,7 @@ class AudioClassifier:
 
             # # Autoencoder reconstruction error
             waveform, sr = self.preprocess(audio_path)
-            chunk_size = 16000
+            chunk_size = 176400
             chunks = self.split_chunks(waveform, chunk_size)  # [N, 1, 16000]
             ae_errors = []
             for chunk in chunks:
